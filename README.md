@@ -1,4 +1,4 @@
-# project-prototype: World Food Facts Visualization
+# project-final: World Food Facts Visualization
 | Names          | Email                    |
 | ---------------|:------------------------:|
 | Elise Song     |nsong4@usfca.edu          |
@@ -6,7 +6,7 @@
 
 # Discussion
 
-This prototype contains all four of the visulizations we had aimed to include, namely:
+Our project contains all four of the visulizations we aimed to include, namely:
 - A word cloud created from the names of products
 - A scatterplot matrix for numeric variables
 - A parallel coordinates plot to allow for visual comparison of variables
@@ -20,7 +20,7 @@ Our data comes from "Open Food Facts", a database of nutrition and other attribu
 ![alt text](https://github.com/usfviz/puerh-/blob/master/project-prototype/interface.png)
 The categories of food selected by the user with the group input filter below the header panel are applied to all four plots. If the user deselects all categories, the food category filter resets back to the default choice "Cheese". 
 
-## Plots
+## Visualizations
 ### Word Cloud
 ![alt text](https://github.com/usfviz/puerh-/blob/master/project-prototype/word.png)
 After subsetting observations selected by the user, our app cleans the text in the product name column, and displays the most common words in the product names. The user can select the number of words to display, filter the data by one or more countries, as well as choose from four color palettes; the defaults are 100 words, USA, and Pink. 
@@ -31,7 +31,7 @@ Our scatterplot matrix displays correlations between these numeric variables: "E
 
 ### Parallel Coordinates Plot
 ![alt text](https://github.com/usfviz/puerh-/blob/master/project-prototype/parallel.png)
-For the parallel coordinates plot we used the same numeric variables as the scatterplot matrix. Since each line represents one observation and displaying all of our data makes the plot overly clustered, we added a slider bar for the user to choose a sample size between 0.1 and 1. The user can filter the data by countries. Additionally, one can drag the axis names around to reorder the variables - try it!
+For the parallel coordinates plot we used the same numeric variables as the scatterplot matrix. Since each line represents one observation and displaying all of our data makes the plot overly clustered, we added a slider bar for the user to choose a sample size between 0.1 and 1. The user can filter the data by countries. The user can also drag the column names at the top of the plot to move the columns around.
 
 ### Radar Plot
 ![alt text](https://github.com/usfviz/puerh-/blob/master/project-prototype/radar.png)
