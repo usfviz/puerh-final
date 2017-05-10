@@ -140,7 +140,7 @@ server <- function(input, output, session) {
     parcoords(
       samplefood
       , rownames=F
-      , brushMode="2d"
+      ,reorderable = T, brushMode="2d"
       , color = list(
         colorScale = htmlwidgets::JS(sprintf(
           'd3.scale.ordinal().range(%s).domain(%s)'
